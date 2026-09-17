@@ -1,14 +1,4 @@
-<h1 align="center">Hi there 👋, I'm Indy</h1>
 
-<p align="center">
-  <b>Website Developer</b> &nbsp;•&nbsp; <b>Mobile Apps Developer</b>
-</p>
-
-<p align="center">
-  <a href="https://www.instagram.com/indykantanat/">
-    <img src="https://img.shields.io/badge/Connect-000000?style=for-the-badge&logo=linktree&logoColor=white" alt="social"/>
-  </a>
-</p>
 
 ---
 
