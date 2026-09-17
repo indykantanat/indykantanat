@@ -1,16 +1,13 @@
-### Stats
+const profile = {
+  name: "Indy",
+  role: ["Website Developer", "Mobile Apps Developer"],
+  currentlyLearning: ["C#"],
+  languages: ["TypeScript", "JavaScript", "Swift"],
+} as const;
 
-![indykantanat GitHub stats](https://coolreadme.xyz/api/stats-card?user=indykantanat&theme=dark)
+type Developer = typeof profile;
 
-### Stack
+const sayHi = (dev: Developer): string =>
+  `Hi 👋 I'm ${dev.name}, let's build something great!`;
 
-![Skill icons](https://skillicons.dev/icons?i=js%2Cts%2Creact%2Cnodejs%2Cgit&perline=10&theme=dark)
-
-![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=800&lines=Building+things+on+the+internet%3Bgithub.com%2Findykantanat)
-
-### Stats
-
-![Profile details](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=indykantanat&theme=github_dark)
-
-
-<sub>Built with [coolreadme.xyz](https://coolreadme.xyz/u/indykantanat) — one-click GitHub README cards.</sub>
+console.log(sayHi(profile));
