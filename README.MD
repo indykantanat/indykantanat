@@ -12,8 +12,6 @@
 
 ---
 
-### 🧑‍💻 About Me
-
 ```typescript
 const profile = {
   name: "Indy",
@@ -39,12 +37,6 @@ console.log(sayHi(profile));
 
 
 ### 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=indykantanat&show_icons=true&theme=tokyonight&hide_border=true" alt="stats" height="165"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=indykantanat&layout=compact&theme=tokyonight&hide_border=true" alt="top langs" height="165"/>
-</p>
-
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=indykantanat&theme=tokyonight&hide_border=true" alt="streak"/>
 </p>
